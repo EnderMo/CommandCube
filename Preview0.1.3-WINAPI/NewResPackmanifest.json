@@ -1,0 +1,18 @@
+{
+"format_version": 1,
+"header": {
+    "description": "资源包显示的介绍（这个manifest只可以用于材质，资源音效之类的）-使用§修改文本颜色- ！-这个文件中不要包含中文！否则会出现乱码！请删除这些中文内容！-",
+    "name": "资源包展示的名称",
+    "uuid": "WWWWWWWW-XXXX-YYYY-ZZZZ-WWWWWWWWWWWW",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 12, 0]
+},
+"modules": [
+    {
+        "description": "resourcePack.vanilla.description",
+        "type": "resources",
+        "uuid": "53644fac-a276-42e5-843f-a3c6f169a9ab",
+        "version": [0, 0, 1]
+    }
+]
+}

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\res">
+      <UniqueIdentifier>{54c888b3-9bee-4413-a655-8b7f6413d330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\source">
+      <UniqueIdentifier>{51334bfc-3724-44bd-82fa-d967be133e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\icon">
+      <UniqueIdentifier>{18ef1d84-8fc6-4324-a05e-c7c98775163a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{0a6548f5-296e-4faa-acc9-66833261f04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI\杂项">
+      <UniqueIdentifier>{3ca7b785-d66f-4961-bafb-3ab043012b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Desktop">
+      <UniqueIdentifier>{3281358a-a831-4708-a43a-ee11dff1963e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Function">
+      <UniqueIdentifier>{0e33069f-85a6-4a19-9c22-ee621f1b72a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Colordef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\res</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件\res</Filter>
+    </ClInclude>
+    <ClInclude Include="UILibEx.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMain.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIdef.hpp">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TxtType.h">
+      <Filter>头文件\UI\杂项</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>头文件\res</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dwmcore.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="gdicore.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandExc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandCube.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.hpp">
+      <Filter>头文件\Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Windesktop.h">
+      <Filter>头文件\Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>头文件\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="zip.h">
+      <Filter>头文件\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleUI.h">
+      <Filter>头文件\Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandCubeFramework.hpp">
+      <Filter>头文件\Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="extensions.h">
+      <Filter>头文件\Desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="filedlg.h">
+      <Filter>头文件\Desktop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommandCube.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="unzip.cpp">
+      <Filter>头文件\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="zip.cpp">
+      <Filter>头文件\Function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameworkUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="DlgUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Reslib_GUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\xlib\10.ico">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="bitmap2.bmp">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="bitmap3.bmp">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="d:\enderend soft chest\desktop\xlib\bitmap4.bmp">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="..\..\..\xlib\bitmap4.bmp">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="POINTER.cur">
+      <Filter>资源文件\source</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>资源文件\icon</Filter>
+    </Image>
+    <Image Include="FrameworkUI.ico">
+      <Filter>资源文件\icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\xlib\CUR.cur">
+      <Filter>资源文件\source</Filter>
+    </None>
+    <None Include="D:\Enderend soft chest\Desktop\xlib\CUR.cur">
+      <Filter>资源文件\source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

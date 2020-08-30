@@ -1,0 +1,145 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 80
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 52
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG5 DIALOGEX 0, 0, 87, 97
+STYLE DS_SETFONT | DS_CENTERMOUSE | WS_POPUP | WS_SYSMENU
+FONT 10, "Microsoft Sans Serif", 700, 0, 0x0
+BEGIN
+    CONTROL         "Static",IDC_STATIC90,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,7,20,73,13
+    LTEXT           "快速命令",IDC_STATICCMD,7,7,50,9
+    CONTROL         "创建MCBE资源文件",IDC_STATIC91,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,7,32,73,13
+    CONTROL         "创建MCBE资源包",IDC_STATIC92,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,7,45,73,13
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 59, 84
+STYLE DS_SETFONT | DS_CENTERMOUSE | WS_POPUP | WS_SYSMENU
+FONT 12, "黑体", 700, 0, 0x86
+BEGIN
+    CONTROL         "检查更新          ",IDC_MENUTXT0,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,7,7,45,13
+    CONTROL         "设置                 ",IDC_MENUTXT1,"Static",SS_SIMPLE | SS_NOTIFY | WS_GROUP,7,20,45,13
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,198,157,50,14
+    PUSHBUTTON      "取消",IDCANCEL,252,157,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG6 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
